@@ -1,0 +1,387 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+body{
+  background-color:rgb(194, 227, 216)
+}
+div img{
+    width: 400px;
+    height: 300px;
+    border-radius: 13px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+p{
+    font-size: 15px;
+    color: rgb(3, 3, 4);
+    text-align: center;
+    font-style: italic;
+    text-decoration: aqua;
+}
+.product{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.product image{
+    width: 80%;
+    height: 250px;
+    transition: transform 3s ease;
+}
+button{
+    background-color: rgb(222, 166, 199);
+    width: 20px;
+    height: 40px;
+}
+.navbar-nav .nav-item .nav-link {
+    color: #0e0e0e; /* Default text color */
+    background-color: #cbf1ed;/*background color white*/
+    transition: background-color 0.4s ease, color 0.3s ease; /* Smooth transition */
+    font-size: 18px; /* Set the font size to 18 pixels */
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    background-color: #212529;/*background color on hover*/
+    color: #fff; /* Text color on hover */
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    padding-left: 10px; /* Add padding to the left side */
+  }
+  
+  .navbar-brand img {
+    width: 80px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add margin to separate logo from text */
+  }
+  
+  .navbar-brand h3 {
+    margin: 0; /* Remove any default margin */
+    font-size: 24px; /* Set font size for the brand name */
+    font-weight: bold; /* Make the brand name bold */
+    color: #090909; /* Set text color */
+  }
+  #fcf-form {
+    display:block;
+}
+
+.fcf-body {
+    margin: 0;
+    font-family: -apple-system, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: pink;
+    text-align: left;
+    background-color:black;
+    padding: 30px;
+    padding-bottom: 10px;
+    border: 1px solidrgb(194, 227, 216);
+    border-radius: 0.25rem;
+    max-width: 100%;
+}
+
+.fcf-form-group {
+    margin-bottom: 1rem;
+}
+.navbar-nav{
+  background-color: white;
+}
+
+
+.fcf-input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.fcf-form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    outline: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fcf-form-control:focus {
+    border: 1px solid #313131;
+}
+
+select.fcf-form-control[size], select.fcf-form-control[multiple] {
+    height: auto;
+}
+
+textarea.fcf-form-control {
+    font-family: -apple-system, Arial, sans-serif;
+    height: auto;
+}
+
+label.fcf-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.fcf-credit {
+    padding-top: 10px;
+    font-size: 0.9rem;
+    color: #545b62;
+}
+
+.fcf-credit a {
+    color: #545b62;
+    text-decoration: underline;
+}
+
+.fcf-credit a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.fcf-btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: black;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fcf-btn {
+        transition: none;
+    }
+}
+
+.fcf-btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.fcf-btn:focus, .fcf-btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.fcf-btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.fcf-btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.fcf-btn-primary:focus, .fcf-btn-primary.focus {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.team-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 95645A(0,0,0,0.2);
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0 15px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.title {
+  color: rgb(47, 48, 48);
+  font-size: 18px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  background-color: 95645A;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+   /* Custom styling for the divs */
+   .image-container {
+    background-color:black; /* black background color */
+    padding: 60px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    height: 250px;
+    width:250px; }
+    .image-fliud:hover{
+      background-color:white;
+    }
+    .text{
+      font-size: 11px;
+      color:#413839;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-decoration-color:#413839 ;
+    }
+    .product {
+      margin-bottom: 30px;
+      margin-top:20px ;
+  }
+  .product img {
+      width: 80%;
+      height: 250px;
+      transition: transform 3s ease;
+  }
+  button{
+    background-color: #48374a;
+    width: 20px;
+    height: 40px;
+
+  }
+  .product img:hover {
+    transform: scale(1.3); /* Change the scale factor as needed */
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+.footer{
+  text-align:center ;
+  color: rgb(26, 26, 27);
+  background-color: rgb(246, 22, 171);
+  width: 100% !important;
+}
+#our-services{
+  background-color:#f8f9fa;
+  padding:50 px;
+}
+.card{
+  border:none;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0 10 10 01);
+}
+.card-title{
+  font-weight: bold;
+}
+.card-text{
+  font-style: italic;
+  color: #090909;
+}
+.button-container {
+  text-align: center;
+  margin-top: 50px; /* Adjust margin-top as needed */
+  background-color:white;
+}
+
+
+.btn {
+  background-color: #e810ab; /* Green */
+  border: none;
+  color: rgb(242, 14, 14);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #0dde18; /* Darker Green */
+}
+.container {
+  position: relative;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+}

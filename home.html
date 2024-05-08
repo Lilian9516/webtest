@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Der Zeitraum Watches</title>
+    <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#712cf9">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="javascript"href="script.js">
+  <style>
+     /* Custom styling for the carousel */
+     .carousel-item img {
+      width: 100%;
+      height: 400px;
+    }
+    .sliding-text {
+      animation: slideIn 2s ease-in-out; /* Adjust animation duration as needed */
+    }
+    body{
+      background-color: white;
+    }
+  </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: rgb(247, 248, 249) !important;">
+      <a class="navbar-brand" href="#"><img src="logo.png" alt="logo"></a>
+      <h3>Der Zeitraum Watches</h3>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Our Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="fas fa-user"></i> Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html"><i class="fas fa-user"></i> Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="basket.html"><i class="fas fa-user"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket2" viewBox="0 0 16 16">
+              <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0z"/>
+              <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6z"/>
+            </svg> </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <body>
+
+      <style>
+        /* Styles for the slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
+      
+        /* Styles for the images */
+        .mySlides {
+          display: none;
+        }
+      
+        /* Style for the navigation dots */
+        .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+      
+        /* Active dot */
+        .active {
+          background-color: #717171;
+        }
+      </style>
+      </head>
+      <body>
+        <div class="slideshow-container">
+          <!-- Image slides -->
+          <div class="mySlides">
+            <img src="trinity.jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+            <img src="trinity.jpg" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <img src="panth.jpg" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <img src="male1.webp" style="width:100%">
+          </div>
+        
+          <div class="mySlides">
+            <img src="double.jpg" style="width: 100%;">
+          </div>
+          <!-- Navigation dots -->
+          <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+        
+        <script>
+          // JavaScript for slideshow functionality
+          var slideIndex = 0;
+          showSlides();
+        
+          function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
+        </script>
+      <h5 style="text-align: center;">Popular Brands</h5>
+       <!-- Container for brand buttons -->
+    <div class="button-container">
+      <button class="btn" onclick="showBrand('brand1')" style="width: 200px;">Rolex</button>
+      <button class="btn" onclick="showBrand('brand2')"style="width: 200px;">Patek Philippe</button>
+      <button class="btn" onclick="showBrand('brand3')"style="width: 200px;">Breitling</button>
+      <button class="btn" onclick="showBrand('brand4')" style="width: 200px;">Cartier</button>
+      <button class="btn" onclick="showBrand('brand5')"style="width: 200px;">IWC</button>
+      <button class="btn" onclick="showBrand('brand6')"style="width: 200px;">Omega</button>
+      <button class="btn" onclick="showBrand('brand7')" style="width: 200px;">Panerai</button>
+      <button class="btn" onclick="showBrand('brand8')"style="width: 200px;">Audemars Piguet</button>
+      <button class="btn" onclick="showBrand('brand9')"style="width: 200px;">Seiko</button>
+  </div>
+
+  <!-- Placeholder for brand details -->
+  <div id="brandDetails">
+      <!-- Brand details will be displayed here -->
+  </div>
+
+  <script>
+      // Function to display brand details based on the button clicked
+      function showBrand(brand) {
+          var brandDetailsDiv = document.getElementById('brandDetails');
+          // Clear previous brand details
+          brandDetailsDiv.innerHTML = '';
+
+          // Switch case to display brand details based on the button clicked
+          switch(brand) {
+              case 'brand1':
+                  brandDetailsDiv.innerHTML = "<h2>Rolex</h2><p>Rolex is a responsible and committed manufacturer of sustainable products.<br> In its quest for excellence, the brand strives to constantly improve not only its watches but also its environmental performance and social impact.<br> Long-term vision is at the heart of the Rolex philosophy and the company’s various activities. Its core values – a passion for quality, a taste for innovation, and a quest for excellence – are based upon concepts of longevity that define its mission across all its activities.</p>";
+                  break;
+              case 'brand2':
+                  brandDetailsDiv.innerHTML = "<h2>Patek Philippe</h2><p>Patek Philippe manufactures its own watch components.Like other Swiss manufacturers, the company produces mostly mechanical movements with automatic or manual winding mechanism, but has also been producing quartz watches.Patek Philippe popularized complications such as perpetual calendar, split-seconds hand, chronograph, and minute repeater in mechanical watches , surpassing the highest industry standard of watch manufacturing and thus abandoning the Geneva Seal,surpassing the highest industry standard of watch manufacturing and thus abandoning the Geneva Seal.</p>";
+                  break;
+              case 'brand3':
+                  brandDetailsDiv.innerHTML = "<h2>Breitling</h2><p>Swiss luxury watchmaker founded in 1884 by Léon Breitling, has earned a reputation for precision and innovation. These timepieces are meticulously crafted for aviators and are COSC-certified chronometers, signifying their exceptional accuracy. Breitling watches boast a bold and distinctive design, reflecting the brand’s commitment to both functionality and style. Whether you’re a pilot or an enthusiast, a Breitling watch is a statement of elegance and technical excellence.</p>";
+                  break;
+                  case 'brand4':
+                  brandDetailsDiv.innerHTML = "<h2>Cartier</h2><p>A renowned Swiss luxury watchmaker, has left an indelible mark on the world of horology. Founded in 1847 by Louis-François Cartier, the brand has consistently blended elegance, precision, and innovation.<br> Here are some iconic Cartier watch collections.Whether you’re drawn to the sleek lines of the Santos, the bold elegance of the Panthère, or the timeless appeal of the Tank, Cartier watches are more than timekeeping devices—they are wearable works of art that transcend generations.</p>";
+                  break;
+              case 'brand5':
+                  brandDetailsDiv.innerHTML = "<h2>IWC</h2><p>A leader in luxury watchmaking since 1868, epitomizes elegance and ruggedness. These Swiss timepieces seamlessly transition from the cockpit to the office, accompanying you wherever life leads.Discover these collections and more on the official IWC website. From elegant to sporty, IWC Schaffhausen offers a watch for every facet of the modern gentleman’s life. boasts a sand-colored ceramic case engineered in collaboration with Pantone®. Its lightness and scratch-resistance make it ideal for pilots. </p>";
+                  break;
+              case 'brand6':
+                  brandDetailsDiv.innerHTML = "<h2>Omega</h2><p>A Swiss luxury watchmaker since 1848, is synonymous with timeless elegance and precision. Whether you’re drawn to the moon, the sea, or classic elegance, Omega watches are true masterpieces of horological excellence. Explore their collections on the official Omega website.The Seamaster Diver 300M collection offers various options, including steel-on-steel, steel-on-rubber strap, and even steel-yellow gold on rubber strap.The iconic Constellation line features timeless designs, precision movements, and attention to detail.</p>";
+                  break;
+                  case 'brand7':
+                  brandDetailsDiv.innerHTML = "<h2>Panerai</h2><p>A Swiss luxury watchmaker since 1868, seamlessly blends Italian design with Swiss watchmaking precision. Explore the pillars that define Panerai on their official website. These timepieces are not just watches; they’re expressions of art and history.For contemporary elegance, explore the Luminor Due series. These watches maintain the Luminor DNA while offering a slimmer profile.The Submersible collection is designed for adventurers and explorers. With water resistance up to 300 meters, these rugged watches are ready for underwater missions.</p>";
+                  break;
+              case 'brand8':
+                  brandDetailsDiv.innerHTML = "<h2>Audemars Piguet</h2><p>A Swiss luxury watchmaker founded in 1875, is synonymous with exceptional craftsmanship, avant-garde designs, and refined decorations.Whether you’re drawn to timeless classics or cutting-edge innovations, Audemars Piguet offers a remarkable journey through time. Each Audemars Piguet watch is a masterpiece. From hand-finished movements to intricate guilloché dials, the brand’s artisans blend tradition with innovation.: Audemars Piguet ranks among the most prestigious luxury watch manufacturers globally. Alongside Vacheron Constantin and Patek Philippe, it forms the legendary “Big Three” of Swiss watch brands.</p>";
+                  break;
+              case 'brand9':
+                  brandDetailsDiv.innerHTML = "<h2>Seiko</h2><p>Seiko offers a wide range of watches, from affordable quartz models to high-end tourbillons. The Prospex collection caters to adventurers and divers, while the Presage line exudes timeless elegance.  Seiko watches are excellent daily wear timepieces. Their iconic status in popular culture, durability, and affordability make them a favorite among watch enthusiasts worldwide.For adventurers and divers, Seiko’s Prospex line offers robust timepieces with features like water resistance up to 300 meters and impressive power reserves. The 1965 Heritage Diver’s model pays homage to classic designs.</p>";
+                  break;
+              // Add more cases for additional brands as needed
+          }
+      }
+  </script>
+  <style>
+    .button-container {
+  text-align: center;
+  margin-top: 50px; /* Adjust margin-top as needed */
+  background-color:white;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 10px;
+  color: black;
+  font-weight: 800;
+}
+
+
+.btn {
+  background-color: #d5f2f0; /* Green */
+  border: none;
+  color: rgb(59, 58, 58);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #deb5c6; /* Darker Green */
+}
+.container {
+  position: relative;
+}
+ </style>
+   <style>
+    .image-container {
+        display: none;
+    }
+    .image-container:target {
+        display: block;
+    }
+</style>
+</head>
+
+      <div id="our-services" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Our Services</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="moon.jfif" class="card-img-top" alt="Testimonial Image"style="height: 200px;width: 380px;">
+                <div class="card-body">
+                  <h5 class="card-title">Watch Shop</h5>
+                  <p class="card-text">Buy watches— varying from different designs and sizes with Affordable Prices. visit Our Store Today! Computer Shop In Kiambu County.
+                    ‎Wrist watches & clocks For Sale · ‎Watches For Sale in Kiambu · ‎Watch wrist buckles.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="hybrid.jfif" class="card-img-top" alt="Testimonial Image"style="height: 220px;width:380px">
+                <div class="card-body">
+                  <h5 class="card-title">Watch Repair</h5>
+                  <p class="card-text">"Full Watch Solutions. provides you a complete Wrist watch REPAIR service that offers competitive rates for any brand of watch repairs in Kiambu CBD Kenya.
+                    Ksh 500.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="oris2.jfif" class="card-img-top" alt="Testimonial Image"style="height: 200px;width:380px">
+                <div class="card-body">
+                  <h5 class="card-title">Watch Development</h5>
+                  <p class="card-text">Wristwatch development is the designing, testing, and implementing a new prototype application on a watch. It includes the internal development of customized systems, the creation of watches and other prototypes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="footer">
+      <footer class="footer mt-auto py-3 bg-light" style="background-color: rgb(246, 22, 171); width: 100% !important;">
+        <div class="container" style="background-color: rgb(198, 196, 194);" style="width: 100% !important;"> 
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Der Zeitraum</h5>
+              <p>Ahead of time.</p>
+            </div>
+            <div class="col-md-3">
+              <h5>Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Our products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h5>Der Zeitraum</h5>
+              <ul class="list-unstyled">
+                <li>123 Runda,Kiambu</li>
+                <li>Phone: (123) 456-7890</li>
+                <li>Email: info@wackawackamun.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      </div>
+  
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    </body>
